@@ -1,6 +1,6 @@
 
 AWSTemplateFormatVersion: "2010-09-09"
-Description: A sample template
+Description: Anthony Template
 Resources:
   MyEC2Instance:
     Type: "AWS::EC2::Instance"
@@ -14,3 +14,6 @@ Resources:
             VolumeType: gp2            
             DeleteOnTermination: true
             VolumeSize: 8
+            
+            
+            
